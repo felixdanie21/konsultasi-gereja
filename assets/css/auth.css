@@ -1,0 +1,15 @@
+:root {
+    --bg-color: #BD574E;
+    --secondary-color: #8d423b;
+    --main-color: #FF8080;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+}
+
+.registrasi {
+    @media (min-width: 576px) {
+        width: 450px;
+    }
+}
